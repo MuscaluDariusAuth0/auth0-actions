@@ -1360,7 +1360,7 @@ prompts:
   webauthn_platform_first_factor: false
 migrations: {}
 actions:
-- name: 'Allow only x company domain to log in '
+  - name: 'Allow only x company domain to log in '
     code: ./actions/test/actions/Allow only x company domain to log in/code.js
     dependencies: []
     deployed: false
