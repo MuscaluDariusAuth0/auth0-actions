@@ -18,4 +18,4 @@ jobs:
       - name: Import changes to the Auth0 staging account
         env:
           AUTH0_CLIENT_SECRET: "nodDG56sfVpuBStSG3Z7KxMPsRIqk54rmRkgPllwXN-QHZ9ljvFHJBZyM8Fa6NAz"
-        run: npm run import:staging
+        run: npm run import:main
