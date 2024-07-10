@@ -1,0 +1,13 @@
+{
+    "AUTH0_DOMAIN": "darius-test.us.auth0.com",
+    "AUTH0_CLIENT_ID": "RZRdQsVWS3nZef15NA3rIs6Rd4lTfqhb",
+    "AUTH0_CLIENT_SECRET": "nodDG56sfVpuBStSG3Z7KxMPsRIqk54rmRkgPllwXN-QHZ9ljvFHJBZyM8Fa6NAz",
+    "EXCLUDED_PROPS": {
+        "clients": [
+            "client_secret"
+        ],
+        "connections": [
+            "options.client_secret"
+        ]
+    }
+}
