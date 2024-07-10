@@ -1409,8 +1409,6 @@ triggers:
   post-login:
     - action_name: Allow only x company domain to log in
       display_name: Allow only x company domain to log in
-    - action_name: Allow only company domains
-      display_name: Allow only company domains
 organizations:
   - name: facebook
     branding:
