@@ -1301,7 +1301,7 @@ actions:
   - name: 'Allow only x company domain to log in '
     code: ./actions/test/actions/Allow only x company domain to log in/code.js
     dependencies: []
-    deployed: false
+    deployed: true
     runtime: node18-actions
     secrets: []
     status: built
@@ -1409,6 +1409,8 @@ triggers:
   post-login:
     - action_name: Allow only x company domain to log in
       display_name: Allow only x company domain to log in
+    - action_name: Allow only company domains
+      display_name: Allow only company domains
 organizations:
   - name: facebook
     branding:
