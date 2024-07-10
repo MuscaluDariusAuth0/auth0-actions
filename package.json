@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "export:main": "a0deploy export --strip --format yaml --output_folder . --config_file ./test/config.json",
+        "import:main": "a0deploy import --input_file tenant.yaml --config_file ./test/config.json"
+    }
+}
